@@ -27,6 +27,7 @@
     "jest-babel": "^1.0.1"
   },
   "dependencies": {
-    "core-js": "^3.25.0"
+    "core-js": "^3.25.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
