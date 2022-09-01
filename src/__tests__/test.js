@@ -1,4 +1,4 @@
-import checkHP from '../checkhp.js';
+import checkHP from '../checkhp';
 
 test.each([
   [{ name: 'Маг', health: 90 }, 'healthy'],
