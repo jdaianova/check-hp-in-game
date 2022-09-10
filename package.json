@@ -1,9 +1,9 @@
 {
   "name": "check-hp-in-game",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development",
     "test": "jest",
     "lint": "eslint .",
     "build": "webpack --mode production"
@@ -24,13 +24,15 @@
     "@babel/preset-env": "^7.18.10",
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "jest": "^29.0.1",
+    "jest": "^29.0.2",
     "jest-babel": "^1.0.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
   },
   "dependencies": {
     "core-js": "^3.25.0",
     "eslint-plugin-import": "^2.26.0"
-  }
+  },
+  "description": ""
 }
